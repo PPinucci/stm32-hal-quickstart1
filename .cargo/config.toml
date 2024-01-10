@@ -21,3 +21,4 @@ target = "thumbv7em-none-eabihf" # Cortex-M4F and Cortex-M7F (eg F, L4, G4, H7)
 rb = "run --bin"
 rrb = "run --release --bin"
 rr = "run --release"
+br = "build --release"

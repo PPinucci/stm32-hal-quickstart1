@@ -9,15 +9,11 @@
 #![no_std]
 
 use cortex_m::{self};
-
 use cortex_m_rt::entry;
-
+use defmt::println;
 // These lines are part of our setup for debug printing.
 use defmt_rtt as _;
 use panic_probe as _;
-
-use defmt::println;
-
 // Import parts of this library we use. You could use this style, or perhaps import
 // less here.
 use stm32_hal2::{self, low_power, pac};
