@@ -16,7 +16,7 @@ use defmt_rtt as _;
 use panic_probe as _;
 // Import parts of this library we use. You could use this style, or perhaps import
 // less here.
-use stm32_hal2::{self, low_power, pac};
+use hal::{self, low_power, pac};
 
 mod init;
 mod setup;

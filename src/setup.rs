@@ -1,6 +1,6 @@
 //! This module contains hardware configuration setup, eg GPIO, DMA, and IO.
 
-use stm32_hal2::{
+use hal::{
     dma::{self, DmaInput, DmaInterrupt},
     gpio::{OutputSpeed, Pin, PinMode, Port},
 };

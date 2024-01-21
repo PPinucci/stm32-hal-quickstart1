@@ -1,6 +1,6 @@
 //! This module contains initialization code, run once at program start.
 
-use stm32_hal2::{
+use hal::{
     clocks::Clocks,
     dma::{self, Dma},
     gpio::{Pin, PinMode, Port},
