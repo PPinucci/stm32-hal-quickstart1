@@ -56,7 +56,7 @@ fn main() -> ! {
     // This line is required to prevent the debugger from disconnecting on entering WFI.
     // This appears to be a limitation of many STM32 families. Not required in production code,
     // and significantly increases power consumption in low-power modes. Not required if not using WFI.
-    stm32_hal2::debug_workaround();
+    // hal::debug_workaround();
 
     init::run();
 
